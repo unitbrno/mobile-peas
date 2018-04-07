@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MeetingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_meetings"
+            style="@style/TitleStyle"
+            android:text="@string/title_meetings"
+            tools:ignore="MissingPrefix" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_meetings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_meetings"
+            android:padding="@dimen/spacing_medium"
+            android:scrollbars="vertical" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_back_calendar"
+            style="@style/BordelessButtonStyle"
+            android:layout_above="@id/status_bar"
+            android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:drawableRight="@android:color/transparent"
+            android:text="@string/btn_back" />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

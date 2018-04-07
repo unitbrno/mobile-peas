@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SkodaVoxApp</string>
+    <string name="btn_login">Log in</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="error_required_field">This field is required</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="title_choose_calendar">Choose a calendar to import upcoming meetings</string>
+    <string name="btn_google">Google</string>
+    <string name="btn_outlook">Outlook</string>
+    <string name="btn_skip_calendars">Skip</string>
+    <string name="meetings_name">Meeting name</string>
+    <string name="title_detail_record">Detail record</string>
+    <string name="btn_back">Back</string>
+    <string name="detail_record_removed">Detail record was removed!</string>
+    <string name="delete">Delete</string>
+    <string name="title_meetings">Upcoming meetings</string>
+    <string name="state_decision">Decision</string>
+    <string name="state_task">Task</string>
+    <string name="instructions_to_start">To start a record session say Start meeting</string>
+    <string name="btn_end">Stop</string>
+</resources>

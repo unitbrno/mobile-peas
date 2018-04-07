@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "808840744973",
+    "firebase_url": "https://skodavox.firebaseio.com",
+    "project_id": "skodavox",
+    "storage_bucket": "skodavox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808840744973:android:4e52524e68013f20",
+        "android_client_info": {
+          "package_name": "skodavox.peas.unitbrno.cz.skodavoxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808840744973-5mr6amq27lhesg3r9vqil0qm57c86mb9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808840744973-in2psa3h4hltshd972r142kl6j4li6u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skodavox.peas.unitbrno.cz.skodavoxapp",
+            "certificate_hash": "6abb2b69e0d309e31552295b1abb15bc4570bf13"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrJqWunE_i7SpRMU6SN6INN28LoEaCKF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808840744973-5mr6amq27lhesg3r9vqil0qm57c86mb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
