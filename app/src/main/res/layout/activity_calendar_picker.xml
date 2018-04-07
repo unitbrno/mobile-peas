@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    tools:context=".activities.CalendarPickerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large">
+
+        <TextView
+            android:id="@+id/title_calendar_picker"
+            fontPath="fonts/SkodaPro.ttf"
+            style="@style/TitleStyle"
+            android:text="@string/title_choose_calendar" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_google_calendar"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/title_calendar_picker"
+            android:background="@color/google_red"
+            android:layout_centerVertical="true"
+            android:drawableStart="@drawable/google"
+            android:text="@string/btn_google" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_outlook_calendar"
+            style="@style/ButtonStyle"
+            android:layout_below="@id/btn_google_calendar"
+            android:background="@color/outlook_blue"
+            android:drawableStart="@drawable/outlook"
+            android:text="@string/btn_outlook" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_skip_calendar"
+            style="@style/BordelessButtonStyle"
+            android:text="@string/btn_skip_calendars" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

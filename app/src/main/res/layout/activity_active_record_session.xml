@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MeetingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_meeting_name"
+            style="@style/TitleStyle"
+            tools:ignore="MissingPrefix" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_meeting_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:textSize="@dimen/text_size_medium" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_attenders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chronometer"
+            android:scrollbars="vertical" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            style="@style/BordelessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_above="@id/status_bar"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:drawableRight="@android:color/transparent"
+            android:text="@string/btn_back" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_end"
+            style="@style/BordelessButtonStyle"
+            android:layout_above="@id/status_bar"
+            android:layout_alignParentBottom="false"
+            android:layout_toRightOf="@id/btn_back"
+            android:text="@string/btn_end" />
+
+
+        <TextView
+            android:id="@+id/status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red"
+            android:drawableLeft="@drawable/microphone"
+            android:drawablePadding="@dimen/spacing_medium"
+            android:fontFamily="bold"
+            android:padding="@dimen/spacing_medium"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
